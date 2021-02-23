@@ -39,6 +39,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="/js/typed.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -57,7 +59,7 @@
 <li><a href="#section5">contact</a></li>
 </ul>
 </nav> --}}
-    <section class="bgimg" >
+    <section class="bgimg" data-index="1" id="home">
         <nav class="navbar fixed-top navbar-expand-lg nav-area">
             <a class="navbar-brand" href="#"><img class="logo" style="height: 60px; border-radius:50px;"
                     src="/img/Capture.PNG" alt="logo"></a>
@@ -68,27 +70,28 @@
             <div class="flex-r">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item active ">
+                            <a class="nav-link" data-page="home" href="#home">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section2">About</a>
+                            <a class="nav-link " data-page="about" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section3">EDUCATION</a>
+                            <a class="nav-link" data-page="Education" href="#education">EDUCATION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section4">WORK</a>
+                            <a class="nav-link" data-page="work" href="#work">WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section5"> PROJECT </a>
+                            <a class="nav-link" data-page="project" href="#project"> PROJECT </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section6"> CERTIFICATION </a>
+                            <a class="nav-link" data-page="certification" href="#certification"> CERTIFICATION </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section7"> CONTACT </a>
+                            <a class="nav-link" data-page="contact" href="#contact"> CONTACT </a>
                         </li>
+                   
                     </ul>
                 </div>
             </div>
@@ -97,10 +100,10 @@
         <br>
         <br><br><br>
         <br>
-        <br><br>
-        </b></b>
+        <br>
+        <br>
 
-        <div id="#section1" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
+        <div id="home" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
             data-aos-anchor-placement="center-center" class="container text-center">
             <div class="row">
                 <div class="col-md-6 col-12 com-sm-12">
@@ -110,10 +113,7 @@
                         <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1800">
                             <p class=" mt-5 "
                                 style="font-size:25px; line-height:32px;font-weigh:400; color:#ddd; text-align:center;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore vero, architecto qui
-                                ea
-                                sapiente fugit, delectus at rerum aliquid optio exercitationem error aperiam maxime
-                                autem.
+                                Hey myself, PIYUSH PRABHAKAR KANADJE, a final year student in GH Raisoni College of engineering and management, Pune. I am an enthusiastic, hardworking, non-complacent, self-motivated, and ambitious student.
                             </p>
                         </div>
 
@@ -137,7 +137,7 @@
         <br><br><br>
     </section>
 
-    <section id="section2">
+    <section data-index="2" id="about" style="background: black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
@@ -189,9 +189,10 @@
                 <br>
                 <h2 style="font-weight:900; font-size:55px;" class="white">MY <span class="or">SKILLS</span></h2>
                 <p style="width:50%; margin:auto; font-size:20px;" class="mt-3 white">
-                   "Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft." 
+                    "Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your
+                    craft."
 
-</p>
+                </p>
             </div>
             <h2 class="text-uppercase white mt-4">Languages</h2>
             <div class="row">
@@ -358,14 +359,14 @@
 
         </div>
     </section>
-    <section id="section3" style="background:black;">
+    <section data-index="3" id="education" style="background:black;">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
                 <br>
                 <h2 style="font-weight:900; font-size:55px;" class="white">MY <span class="or">EDUCATION</span></h2>
                 <p style="width:50%; margin:auto; font-size: 20px;" class="mt-3 white">
-                 " The pen is mightier than the sword."  </p>
+                    " The pen is mightier than the sword." </p>
             </div>
 
         </div>
@@ -438,15 +439,16 @@
 
         </div>
     </section>
-    <section id="section4" style="background:black;">
+    <section data-index="4" id="work" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
                 <br>
                 <h2 style="font-weight:900; font-size:55px;" class="white">MY <span class="or">WORK</span></h2>
                 <p style="width:50%; margin:auto; font-size:20px;" class="mt-3 white">
-                   "Concentrate all your thoughts upon the work in hand. The sun's rays do not burn until brought to a focus."
-                    </p>
+                    "Concentrate all your thoughts upon the work in hand. The sun's rays do not burn until brought to a
+                    focus."
+                </p>
             </div>
         </div>
 
@@ -504,14 +506,14 @@
     </section>
 
 
-    <section id="section5" style="background:black;">
+    <section data-index="5" id="project" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
                 <br>
                 <h2 style="font-weight:900; font-size:55px;" class="white">MY <span class="or">PROJECT</span></h2>
                 <p style="width:50%; margin:auto; font-size:20px;" class="mt-3 white">
-            "It's a bad plan that admits of no modification."   
+                    "It's a bad plan that admits of no modification."
                 </p>
             </div>
             <div class="row mt-5" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -577,7 +579,7 @@
         <br>
 
     </section>
-    <section id="section6" style="background:black;">
+    <section data-index="6" id="certification" style="background:black;">
 
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -585,14 +587,15 @@
                 <br>
                 <h2 style="font-weight:900; font-size:55px;" class="white">MY <span class="or">CERTIFICATION</span></h2>
                 <p style="width:50%; margin:auto; font-size:20px;" class="mt-3 white">
-            "CERTIFICATES" 
-                   
-                  </p>
+                    "CERTIFICATES"
+
+                </p>
             </div>
         </div>
         <div class="container mt-5" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out">
             <div class="row pb-5 mb-4">
-                <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 " style="overflow: hidden; " data-aos="fade-up-right" data-aos-duration="2500">
+                <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 " style="overflow: hidden; " data-aos="fade-up-right"
+                    data-aos-duration="2500">
                     <!-- Card-->
                     <div class="card shadow-sm border-0 rounded">
                         <div class="card-body img-hover-zoom  p-0"><img src="/img/coursera.png" alt=""
@@ -600,7 +603,7 @@
                             <div class="p-4">
                                 <h5 class="mb-0">Managing Big Data with <br> MySQL</h5>
 
-                                
+
                                 <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
                             </div>
                         </div>
@@ -642,7 +645,7 @@
                 </div>
 
             </div>
-            <div  id="more">
+            <div id="more">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 mb-4 mb-lg-0" data-aos="fade-up-right" data-aos-duration="2500">
                         <!-- Card-->
@@ -664,7 +667,7 @@
                                     class="w-100 card-img-top">
                                 <div class="p-4">
                                     <h5 class="mb-0">C++ <br> Tutorials</h5>
-    
+
                                     <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
                                 </div>
                             </div>
@@ -677,14 +680,14 @@
                                     class="w-100 card-img-top">
                                 <div class="p-4">
                                     <h5 class="mb-0">Tutorials AWS Fundamentals: Going Cloud-Native</h5>
-    
+
                                     <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="row">
                     <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 mt-5" data-aos="fade-up-right" data-aos-duration="2500">
                         <!-- Card-->
@@ -714,13 +717,15 @@
                     </div>
                 </div>
             </div>
-              
-            
+
+
 
             <div class="col-md-12 col-sm-12 col-12 justify-content-center">
                 <p class="text-center details-view my-5">
-                    <button class="button white" onclick="myFunction()"  style="background:#ef4f4f;"data-hover="click me!"><div id="myBtn">View More!</div>
-       
+                    <button class="button white" onclick="myFunction()" style="background:#ef4f4f;"
+                        data-hover="click me!">
+                        <div id="myBtn">View More!</div>
+
                 </p>
             </div>
         </div>
@@ -729,7 +734,7 @@
 
     </section>
 
-    <section id="section7" style="background: black;">
+    <section data-index="7" id="contact" style="background: black;">
 
 
         <div class="container">
@@ -744,7 +749,7 @@
 
         <div class="container mt-5 mb">
             <div class="row">
-                <div class="col-md-5 col-sm-12 col-12 white "  data-aos="fade-up-right" data-aos-duration="2000">
+                <div class="col-md-5 col-sm-12 col-12 white " data-aos="fade-up-right" data-aos-duration="2000">
                     <div class="row grey" style=" padding:7px 0px;">
                         <div class="col-md-2 col-sm-2">
                             <i style="background:orange; padding:25px;" class="fas fa-envelope-open-text white"></i>
@@ -781,10 +786,10 @@
                 <div class="col-md-1 col-sm-12 col-12">
 
                 </div>
-                <div class="col-md-6 col-sm-12 col-12 grey  " style=""  data-aos="fade-up-left" data-aos-duration="2000">
+                <div class="col-md-6 col-sm-12 col-12 grey  " style="" data-aos="fade-up-left" data-aos-duration="2000">
 
                     <form action="" method="post">
-                        <div class="col-md-12 col-sm-12 col-12" >
+                        <div class="col-md-12 col-sm-12 col-12">
                             <div class="form-group mt-4">
 
                                 {{-- <input type="text" name="mobileno"  value="{{Auth::user()->mobile }}"  class="form-control input inputbg" id="" aria-describedby=""
@@ -831,9 +836,9 @@
                         </div>
                         <div class="justify-content-center col-md-12 col-sm-12">
 
-                           <p class="text-center">
-                            <button class="btn btn-danger">SEND MESSAGE</button>
-                          </p>
+                            <p class="text-center">
+                                <button class="btn btn-danger">SEND MESSAGE</button>
+                            </p>
 
                         </div>
 
@@ -855,7 +860,106 @@
         AOS.init();
 
     </script>
-    <script>
+    {{-- <script>
+        const section = document.querySelectorAll('section');
+        const bubble = document.querySelector('.bubble');
+        const gradients = [
+            "  linear-gradient(to right, #ec6f66, #f3a183)"
+        ];
+
+        const options = {
+            threshold: 0.7
+
+        }
+
+
+
+        let observer = new IntersectionObserver(navCheck, options);
+
+        function navCheck(entries) {
+
+            entries.forEach(entry => {
+                const className = entry.target.className;
+                console.log(className);
+                const activeAnchor = document.querySelector('[data-page=${className}]');
+                const gradientIndex = entry.target.getAttribute('data-index');
+                const coords activeAnchor.getBoundingClientRect();
+                const directions = {
+                    height: coords.height,
+                    width: coords.width,
+                    top: coords.top,
+                    left: coords.left
+                };
+                if (entry.isIntersectnig) {
+                    bubble.style.setProperty('height', '${directions.height}px');
+                    bubble.style.setProperty('top', '${directions.top}px');
+                    bubble.style.setProperty('width', '${directions.width}px');
+                    bubble.style.setProperty('left', '${directions.left}px');
+
+                }
+
+            });
+        }
+
+        section.forEach(section => {
+
+            observer.observe(section);
+
+        })
+
+    </script> --}}
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        // const currentLocation = location.href;
+        // const menuItem = document.querySelectorAll('a');
+        // const menuLength = menuItem.lenght
+        // for (let i = 0; i < menuLength; i++) {
+        //     if (menuItem[i].href === currentLocation) {
+        //         menuItem[i].className = "current";
+        //     }
+        // }
+        $(document).on('click', ' ul li ', function() {
+            console.log('hi');
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+        //     $(document).ready(function () {
+        //     $(document).on("scroll", onScroll);
+
+        //     //smoothscroll
+        //     $('a[href^="#"]').on('click',  ' ul li ', function (e) {
+        //         e.preventDefault();
+        //         $(document).off("scroll");
+
+        //         $('a').each(function () {
+        //             $(this).removeClass('active');
+        //         })
+        //         $(this).addClass('active');
+
+        //         var target = this.hash,
+        //             menu = target;
+        //         $target = $(target);
+        //         $('html, body').stop().animate({
+        //             'scrollTop': $target.offset().top+2
+        //         }, 500, 'swing', function () {
+        //             window.location.hash = target;
+        //             $(document).on("scroll", onScroll);
+        //         });
+        //     });
+        // });
+        // const sections = document.querySelectorAll("section");
+        // const navLinks = document.querySelectorAll("nav a");
+
+        // sections.forEach(section => {
+        //     section.addEventListener("mouseenter", function() {
+        //         const id = this.getAttribute("id");
+        //         const activeSection = document.querySelector("a[href= '#" + id + "']");
+        //         navLinks.forEach(nav => nav.classList.remove("active"));
+        //         activeSection.classList.add("active");
+        //     });
+        // })
+
         function myFunction() {
             var moreText = document.getElementById("more");
             var btnText = document.getElementById("myBtn");
@@ -864,7 +968,7 @@
                 btnText.innerHTML = "View Less!";
                 moreText.style.display = "block";
                 console.log('greater');
-               
+
             } else {
                 btnText.innerHTML = "View More!";
                 moreText.style.display = "none";
