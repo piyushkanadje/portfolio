@@ -47,18 +47,6 @@
 </head>
 
 <body>
-
-    {{-- <a href="/">  </a>
-      
-        <nav>
-            <ul class="nav-area">
-<li><a href="/">home</a></li>
-<li><a href="#section2">About</a></li>
-<li><a href="#section3">portfolio</a></li>
-<li><a href="#section4">services</a></li>
-<li><a href="#section5">contact</a></li>
-</ul>
-</nav> --}}
     <section class="bgimg" data-index="1" id="home">
         <nav class="navbar fixed-top navbar-expand-lg nav-area">
             <a class="navbar-brand" href="#"><img class="logo" style="height: 60px; border-radius:50px;"
@@ -68,35 +56,37 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="flex-r">
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active ">
-                            <a class="nav-link" data-page="home" href="#home">Home </a>
+                            <a class="nav-link" data-nav-section="home" href="#home">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " data-page="about" href="#about">About</a>
+                            <a class="nav-link " data-nav-section="about" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-page="Education" href="#education">EDUCATION</a>
+                            <a class="nav-link" data-nav-section="education" href="#education">EDUCATION</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-page="work" href="#work">WORK</a>
+                            <a class="nav-link" data-nav-section="work" href="#work">WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-page="project" href="#project"> PROJECT </a>
+                            <a class="nav-link" data-nav-section="project" href="#project"> PROJECT </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-page="certification" href="#certification"> CERTIFICATION </a>
+                            <a class="nav-link" data-nav-section="certification" href="#certification"> CERTIFICATION
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-page="contact" href="#contact"> CONTACT </a>
+                            <a class="nav-link" data-nav-section="contact" href="#contact"> CONTACT </a>
                         </li>
-                   
+
                     </ul>
                 </div>
             </div>
 
         </nav>
+
         <br>
         <br><br><br>
         <br>
@@ -113,7 +103,9 @@
                         <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1800">
                             <p class=" mt-5 "
                                 style="font-size:25px; line-height:32px;font-weigh:400; color:#ddd; text-align:center;">
-                                Hey myself, PIYUSH PRABHAKAR KANADJE, a final year student in GH Raisoni College of engineering and management, Pune. I am an enthusiastic, hardworking, non-complacent, self-motivated, and ambitious student.
+                                Hey Myself, PIYUSH PRABHAKAR KANADJE, a Final Year student in GH Raisoni College Of
+                                Engineering And Management, Pune. I am an enthusiastic, hardworking, non-complacent,
+                                self-motivated, and ambitious student.
                             </p>
                         </div>
 
@@ -137,7 +129,7 @@
         <br><br><br>
     </section>
 
-    <section data-index="2" id="about" style="background: black;">
+    <section data-section="2" id="about" style="background: black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
@@ -156,23 +148,23 @@
                     <div data-aos="fade-left" data-aos-duration="1000">
                         <h2 class="white">A Little About Myself</h2>
                         <p class="text-left white">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                            numquam
-                            cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                            fugit!
+                            Hey, As you read above, I am Piyush PRABHAKAR KANADJE, a Final Year student at GH Raisoni
+                            College Of Engineering And Management, Pune. I am an enthusiastic, hardworking,
+                            non-complacent, self-motivated, and ambitious student.
                         </p>
                         <p class="text-left white">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                            numquam
-                            cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                            fugit!
+                            In the last 4 years of college, I have been in many positions. From the 2nd year, I am
+                            working as a Class Representative, from the 3rd year, I have been working as President of
+                            E&TC. I have organized many events in the college fest and given excellent performance. With
+                            all of this, my academic score is also good. In the last semester(6th), I have got 9.96SGPA.
                         </p>
                         <p class="text-left white">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                            numquam
-                            cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                            fugit!
-                        </p><br>
+                            Also Now I am working as a web development intern at Aasa Technologies. I have been
+                            programming dynamic websites in this ongoing internship. Its always been a passion of mine
+                            to develop userfriendly websites. In this Ongoing Internship, I have built dynamic websites
+                            from Scratch.
+                        </p>
+                        <br>
                         <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
                                 style="margin:10px"></i>Download CV</a>
                     </div>
@@ -359,7 +351,7 @@
 
         </div>
     </section>
-    <section data-index="3" id="education" style="background:black;">
+    <section data-section="3" id="education" style="background:black;">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
@@ -439,7 +431,7 @@
 
         </div>
     </section>
-    <section data-index="4" id="work" style="background:black;">
+    <section data-section="4" id="work" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
@@ -471,8 +463,7 @@
                                 <span class="timeline-year">2019</span>
                                 <h3 class="title">President OF Electronics and Telecommunication Branch (2019-2021)</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus
-                                    lorem, et condimentum neque commodo
+                                    I am working as President of E&TC branch in which I have organized various event is the college fest and delivered an excellent performance.
                                 </p>
                             </a>
                         </div>
@@ -506,7 +497,7 @@
     </section>
 
 
-    <section data-index="5" id="project" style="background:black;">
+    <section data-section="5" id="project" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <br>
@@ -525,10 +516,7 @@
                     data-aos-easing="ease-in-out">
                     <h2 class="white">A Little About Myself</h2>
                     <p class="text-left white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                        numquam
-                        cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                        fugit!
+                       
                     </p>
                     <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
                             style="margin:10px"></i>Download CV</a>
@@ -579,7 +567,7 @@
         <br>
 
     </section>
-    <section data-index="6" id="certification" style="background:black;">
+    <section data-section="6" id="certification" style="background:black;">
 
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -734,7 +722,7 @@
 
     </section>
 
-    <section data-index="7" id="contact" style="background: black;">
+    <section data-section="7" id="contact" style="background: black;">
 
 
         <div class="container">
@@ -860,6 +848,43 @@
         AOS.init();
 
     </script>
+    <script>
+        var navActive = function(section) {
+
+            var $el = $('#navbar > ul');
+            $el.find('li').removeClass('active');
+            $el.each(function() {
+                $(this).find('a[data-nav-section="' + section + '"]').closest('li').addClass('active');
+            });
+
+        };
+
+        var navigationSection = function() {
+
+            var $section = $('section[data-section]');
+
+            $section.waypoint(function(direction) {
+
+                if (direction === 'down') {
+                    navActive($(this.element).data('section'));
+                }
+            }, {
+                offset: '150px'
+            });
+
+            $section.waypoint(function(direction) {
+                if (direction === 'up') {
+                    navActive($(this.element).data('section'));
+                }
+            }, {
+                offset: function() {
+                    return -$(this.element).height() + 155;
+                }
+            });
+
+        };
+
+    </script>
     {{-- <script>
         const section = document.querySelectorAll('section');
         const bubble = document.querySelector('.bubble');
@@ -912,53 +937,11 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        // const currentLocation = location.href;
-        // const menuItem = document.querySelectorAll('a');
-        // const menuLength = menuItem.lenght
-        // for (let i = 0; i < menuLength; i++) {
-        //     if (menuItem[i].href === currentLocation) {
-        //         menuItem[i].className = "current";
-        //     }
-        // }
         $(document).on('click', ' ul li ', function() {
             console.log('hi');
             $(this).addClass('active').siblings().removeClass('active');
         })
-        //     $(document).ready(function () {
-        //     $(document).on("scroll", onScroll);
 
-        //     //smoothscroll
-        //     $('a[href^="#"]').on('click',  ' ul li ', function (e) {
-        //         e.preventDefault();
-        //         $(document).off("scroll");
-
-        //         $('a').each(function () {
-        //             $(this).removeClass('active');
-        //         })
-        //         $(this).addClass('active');
-
-        //         var target = this.hash,
-        //             menu = target;
-        //         $target = $(target);
-        //         $('html, body').stop().animate({
-        //             'scrollTop': $target.offset().top+2
-        //         }, 500, 'swing', function () {
-        //             window.location.hash = target;
-        //             $(document).on("scroll", onScroll);
-        //         });
-        //     });
-        // });
-        // const sections = document.querySelectorAll("section");
-        // const navLinks = document.querySelectorAll("nav a");
-
-        // sections.forEach(section => {
-        //     section.addEventListener("mouseenter", function() {
-        //         const id = this.getAttribute("id");
-        //         const activeSection = document.querySelector("a[href= '#" + id + "']");
-        //         navLinks.forEach(nav => nav.classList.remove("active"));
-        //         activeSection.classList.add("active");
-        //     });
-        // })
 
         function myFunction() {
             var moreText = document.getElementById("more");
@@ -1001,7 +984,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

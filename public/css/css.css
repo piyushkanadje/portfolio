@@ -17,7 +17,8 @@ html {
 
 }
 
-.navbar-nav li.active{
+
+.active{
   border-bottom: 1px solid darkorange;
 }
 .navbar{
@@ -732,3 +733,6 @@ if(entry.isIntersectnig){
 }
 
 }); */
+
+
+
