@@ -463,7 +463,7 @@
                                 <span class="timeline-year">2019</span>
                                 <h3 class="title">President OF Electronics and Telecommunication Branch (2019-2021)</h3>
                                 <p class="description">
-                                    I am working as President of E&TC branch in which I have organized various event is the college fest and delivered an excellent performance.
+                                    I am working as President of E&TC branch in which I have organized various event in the college fest and delivered an excellent performance.
                                 </p>
                             </a>
                         </div>

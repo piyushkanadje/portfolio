@@ -54,10 +54,10 @@ body {
 .grey{
   background:#f4f9f9;
 }
-.grey:hover{ 
+/* .grey:hover{ 
  
   background:#ffe8e8;
-}
+} */
 ::placeholder {
 text-transform: uppercase;
   padding:5px;
