@@ -47,6 +47,7 @@
 </head>
 
 <body>
+    {{-- HOME --}}
     <section class="bgimg" data-index="1" id="home">
         <nav class="navbar fixed-top navbar-expand-lg nav-area">
             <a class="navbar-brand" href="#"><img class="logo" style="height: 60px; border-radius:50px;"
@@ -128,7 +129,7 @@
         <br>
         <br><br><br>
     </section>
-
+{{-- ABOUT ME --}}
     <section data-section="2" id="about" style="background: black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -165,7 +166,7 @@
                             from Scratch.
                         </p>
                         <br>
-                        <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
+                        <a class="cv-btn mt-5 " href="/pdf/resume.pdf"><i class="fa fa-download"
                                 style="margin:10px"></i>Download CV</a>
                     </div>
                 </div>
@@ -351,6 +352,7 @@
 
         </div>
     </section>
+    {{-- EDUCATION --}}
     <section data-section="3" id="education" style="background:black;">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -431,6 +433,7 @@
 
         </div>
     </section>
+    {{-- WORK --}}
     <section data-section="4" id="work" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -463,7 +466,8 @@
                                 <span class="timeline-year">2019</span>
                                 <h3 class="title">President OF Electronics and Telecommunication Branch (2019-2021)</h3>
                                 <p class="description">
-                                    I am working as President of E&TC branch in which I have organized various event in the college fest and delivered an excellent performance.
+                                    I am working as President of E&TC branch in which I have organized various event in
+                                    the college fest and delivered an excellent performance.
                                 </p>
                             </a>
                         </div>
@@ -496,7 +500,7 @@
 
     </section>
 
-
+{{-- PROJECT --}}
     <section data-section="5" id="project" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -510,16 +514,14 @@
             <div class="row mt-5" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <div class="col-md-6 com-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <img src="/img/pro.PNG" class="img-fluid" alt="">
+                    <img src="/img/heart.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12 col-12 p-5       " data-aos="fade-left" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="white">A Little About Myself</h2>
+                    <h2 class="white">Heart Attack Detection Using Machine Learning</h2>
                     <p class="text-left white">
-                       
+                        Our team is developing machine learning algorithms in which we can predict the possibility of a heart attack.
                     </p>
-                    <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
-                            style="margin:10px"></i>Download CV</a>
                 </div>
             </div>
             <div class="row mt-5" data-aos="zoom-in-down" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -534,8 +536,8 @@
                         fugit!
                     </p>
 
-                    <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
-                            style="margin:10px"></i>Download CV</a>
+                    <a class="cv-btn mt-5 " href="/pdf/resume.pdf">
+                        SHOW RESUME</a>
                 </div>
                 <div class="col-md-6 com-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
@@ -567,6 +569,7 @@
         <br>
 
     </section>
+    {{-- CERTIFICATION --}}
     <section data-section="6" id="certification" style="background:black;">
 
         <div class="container">
@@ -721,7 +724,7 @@
 
 
     </section>
-
+{{-- CONTACT ME --}}
     <section data-section="7" id="contact" style="background: black;">
 
 
