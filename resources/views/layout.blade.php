@@ -47,6 +47,7 @@
 </head>
 
 <body>
+    
     {{-- HOME --}}
     <section class="bgimg" data-index="1" id="home">
         <nav class="navbar fixed-top navbar-expand-lg nav-area">
@@ -89,14 +90,12 @@
         </nav>
 
         <br>
-        <br><br><br>
-        <br>
-        <br>
-        <br>
+      
+   
 
         <div id="home" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
             data-aos-anchor-placement="center-center" class="container text-center">
-            <div class="row">
+            <div class="row " style="margin-top:100px;">
                 <div class="col-md-6 col-12 com-sm-12">
                     <div class="banner-area">
                         <h3>Piyush Kanadje</h3>
@@ -111,10 +110,10 @@
                         </div>
 
                         <div class="button" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
-                            <button type="button" style="width: 150px; border-radius:50px; padding:10px;"
-                                class="btn btn-outline-success">Success</button>
-                            <button type="button" style="width: 150px; border-radius:50px; padding:10px;"
-                                class="btn btn-outline-danger">Danger</button>
+                            {{-- <button class="custom-button-4">Send message</button>
+                            <button class="custom-button-4">Send message</button> --}}
+                            <a href="#about" class="banner-btn h-1"><i class="fa fa-user"></i>&nbsp; About Me</a>  
+                            <a href="#contact" class="banner-btn h-2"><i class="fa fa-envelope"></i>&nbsp; Contact me</a> 
                         </div>
 
                     </div>
@@ -166,7 +165,7 @@
                             from Scratch.
                         </p>
                         <br>
-                        <a class="cv-btn mt-5 " href="/pdf/resume.pdf"><i class="fa fa-download"
+                        <a class="cv-btn mt-5 " href="/pdf/resume.pdf" target="_blank"><i class="fa fa-download"
                                 style="margin:10px"></i>Download CV</a>
                     </div>
                 </div>
@@ -521,6 +520,7 @@
                     <h2 class="white">Heart Attack Detection Using Machine Learning</h2>
                     <p class="text-left white">
                         Our team is developing machine learning algorithms in which we can predict the possibility of a heart attack.
+                        I will be posting github link here.
                     </p>
                 </div>
             </div>
@@ -528,38 +528,35 @@
 
                 <div class="col-md-6 col-sm-12 col-12 p-5       " data-aos="fade-right" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="white">A Little About Myself</h2>
+                    <h2 class="white">Google Assistant Using Raspberry Pi 3</h2>
                     <p class="text-left white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                        numquam
-                        cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                        fugit!
+                        Role: Programmer and Developer- This assistant will actively listen to your voice and respond to your queries. All you
+                        need to say is “Ok Google” or “Hey Google,” followed by your query.
                     </p>
-
+{{-- 
                     <a class="cv-btn mt-5 " href="/pdf/resume.pdf">
-                        SHOW RESUME</a>
+                        SHOW RESUME</a> --}}
                 </div>
                 <div class="col-md-6 com-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <img src="/img/pro.PNG" class="img-fluid" alt="">
+                    <img src="/img/googlea.PNG" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="row mt-5" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <div class="col-md-6 com-sm-12 col-12" data-aos="fade-right" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <img src="/img/pro.PNG" class="img-fluid" alt="">
+                    <img src="/img/cloud.PNG" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12 col-12 p-5       " data-aos="fade-left" data-aos-duration="1500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="white">A Little About Myself</h2>
+                    <h2 class="white">Cloud Using Raspberry Pi 3</h2>
                     <p class="text-left white">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ad unde eaque. Rem
-                        numquam
-                        cumque, voluptate, dolor iure, repudiandae officiis voluptates aspernatur sapiente quisquam
-                        fugit!
+                        Role: Programmer and Developer - Cloud storage using Raspberry pi allows synchronizing a local folder with
+                        servers in the cloud to access the internet. All the processes must be done by login into the system. This project
+                        also lets user to mount USB or external storage and can access through it.
                     </p>
-                    <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
-                            style="margin:10px"></i>Download CV</a>
+                    {{-- <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
+                            style="margin:10px"></i>Download CV</a> --}}
                 </div>
             </div>
         </div>
@@ -967,7 +964,7 @@
         var typed = new Typed('.typed2', {
             strings: [
                 "Developer.",
-                "Student.",
+                "Rider.",
                 "Designer."
             ],
             typeSpeed: 50,
