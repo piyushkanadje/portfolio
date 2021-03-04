@@ -47,9 +47,9 @@
 </head>
 
 <body>
-    
+
     {{-- HOME --}}
-    <section class="bgimg" data-index="1" id="home">
+    <section class="bgimg" data-index="1" id="home" >
         <nav class="navbar fixed-top navbar-expand-lg nav-area">
             <a class="navbar-brand" href="#"><img class="logo" style="height: 60px; border-radius:50px;"
                     src="/img/Capture.PNG" alt="logo"></a>
@@ -58,7 +58,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="flex-r">
-                <div class="collapse navbar-collapse" id="navbar">
+                <div class="collapse .containerr navbar-collapse" id="navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active ">
                             <a class="nav-link" data-nav-section="home" href="#home">Home </a>
@@ -88,47 +88,52 @@
             </div>
 
         </nav>
-
-        <br>
-      
-   
-
+    <div>
         <div id="home" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
-            data-aos-anchor-placement="center-center" class="container text-center">
-            <div class="row " style="margin-top:100px;">
-                <div class="col-md-6 col-12 com-sm-12">
-                    <div class="banner-area">
-                        <h3>Piyush Kanadje</h3>
-                        <h2>I am a <span class="typed2"></span></h2>
-                        <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1800">
-                            <p class=" mt-5 "
-                                style="font-size:25px; line-height:32px;font-weigh:400; color:#ddd; text-align:center;">
-                                Hey Myself, PIYUSH PRABHAKAR KANADJE, a Final Year student in GH Raisoni College Of
-                                Engineering And Management, Pune. I am an enthusiastic, hardworking, non-complacent,
-                                self-motivated, and ambitious student.
-                            </p>
-                        </div>
-
-                        <div class="button" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
-                            {{-- <button class="custom-button-4">Send message</button>
-                            <button class="custom-button-4">Send message</button> --}}
-                            <a href="#about" class="banner-btn h-1"><i class="fa fa-user"></i>&nbsp; About Me</a>  
-                            <a href="#contact" class="banner-btn h-2"><i class="fa fa-envelope"></i>&nbsp; Contact me</a> 
-                        </div>
-
+        data-aos-anchor-placement="center-center" class="container text-center" >
+        <div class="row " style="padding-top:15%;">
+            <div class="col-md-6 col-12 com-sm-12">
+                <div class="banner-area">
+                    <h3 style="color:black;">Piyush Kanadje</h3>
+                    <h2>I am a <span class="typed2"></span></h2>
+                    <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1800">
+                        <p class=" mt-5 "
+                            style="font-size:25px; line-height:32px;font-weigh:400; color:black; text-align:center;">
+                            Hey Myself, PIYUSH PRABHAKAR KANADJE, a Final Year student in GH Raisoni College Of
+                            Engineering And Management, Pune. I am an enthusiastic, hardworking, non-complacent,
+                            self-motivated, and ambitious student.
+                        </p>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-12 col-12">
+
+                    <div class="button" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
+                        {{-- <button class="custom-button-4">Send message</button>
+                        <button class="custom-button-4">Send message</button> --}}
+                        <a href="#about" class="banner-btn h-1"><i class="fa fa-user"></i>&nbsp; About Me</a>
+                        <a href="#contact" class="banner-btn h-2"><i class="fa fa-envelope"></i>&nbsp; Contact
+                            me</a>
+                    </div>
 
                 </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12">
 
             </div>
+
         </div>
-        <br>
+    </div>
+    <br>
         <br>
         <br><br><br>
+        <b>
+            <br><br> <br> </b>
+    </div>
+
+       
+        
+
+       
     </section>
-{{-- ABOUT ME --}}
+    {{-- ABOUT ME --}}
     <section data-section="2" id="about" style="background: black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -499,7 +504,7 @@
 
     </section>
 
-{{-- PROJECT --}}
+    {{-- PROJECT --}}
     <section data-section="5" id="project" style="background:black;">
         <div class="container">
             <div class="text-center" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -519,7 +524,8 @@
                     data-aos-easing="ease-in-out">
                     <h2 class="white">Heart Attack Detection Using Machine Learning</h2>
                     <p class="text-left white">
-                        Our team is developing machine learning algorithms in which we can predict the possibility of a heart attack.
+                        Our team is developing machine learning algorithms in which we can predict the possibility of a
+                        heart attack.
                         I will be posting github link here.
                     </p>
                 </div>
@@ -530,11 +536,11 @@
                     data-aos-easing="ease-in-out">
                     <h2 class="white">Google Assistant Using Raspberry Pi 3</h2>
                     <p class="text-left white">
-                        Role: Programmer and Developer- This assistant will actively listen to your voice and respond to your queries. All you
+                        Role: Programmer and Developer- This assistant will actively listen to your voice and respond to
+                        your queries. All you
                         need to say is “Ok Google” or “Hey Google,” followed by your query.
                     </p>
-{{-- 
-                    <a class="cv-btn mt-5 " href="/pdf/resume.pdf">
+                    {{-- <a class="cv-btn mt-5 " href="/pdf/resume.pdf">
                         SHOW RESUME</a> --}}
                 </div>
                 <div class="col-md-6 com-sm-12 col-12" data-aos="fade-left" data-aos-duration="1500"
@@ -551,8 +557,10 @@
                     data-aos-easing="ease-in-out">
                     <h2 class="white">Cloud Using Raspberry Pi 3</h2>
                     <p class="text-left white">
-                        Role: Programmer and Developer - Cloud storage using Raspberry pi allows synchronizing a local folder with
-                        servers in the cloud to access the internet. All the processes must be done by login into the system. This project
+                        Role: Programmer and Developer - Cloud storage using Raspberry pi allows synchronizing a local
+                        folder with
+                        servers in the cloud to access the internet. All the processes must be done by login into the
+                        system. This project
                         also lets user to mount USB or external storage and can access through it.
                     </p>
                     {{-- <a class="cv-btn mt-5 " href="#" download=""><i class="fa fa-download"
@@ -592,7 +600,10 @@
                                 <h5 class="mb-0">Managing Big Data with <br> MySQL</h5>
 
 
-                                <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                <a class="  mt-3" href="/pdf/bigData.pdf" target="_blank"
+                                    role="button"><button class="custom-button-4">View Certificate</button></a> 
+                                    
+                                    
                             </div>
                         </div>
 
@@ -611,7 +622,10 @@
                             <div class="p-4">
                                 <h5 class="mb-0">The Fundamentals Of Digital Marketing</h5>
                                 {{-- <p class="small text-muted">CEO - Consultant</p> --}}
-                                <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                {{-- <a class="btn btn-primary mt-3" target="_blank"
+                                    role="button">View Certificate</a> --}}
+                                    <a class="  mt-3" href="/pdf/googleDigital.pdf"  target="_blank"
+                                    role="button"><button class="custom-button-4">View Certificate</button></a> 
                             </div>
                         </div>
                     </div>
@@ -626,7 +640,9 @@
                                 <h5 class="mb-0">AWS Badges</h5>
                                 <br>
 
-                                <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                               
+                                <a class="  mt-3" href="/pdf/profile.pdf"  target="_blank"
+                                role="button"><button class="custom-button-4">View Certificate</button></a> 
                             </div>
                         </div>
                     </div>
@@ -643,7 +659,10 @@
                                 <div class="p-4">
                                     <h5 class="mb-0">Web Development</h5>
                                     <br>
-                                    <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                    {{-- <a class="btn btn-primary mt-3" href="/pdf/frontend.pdf" target="_blank"
+                                        role="button">View Certificate</a> --}}
+                                        <a class="  mt-3"href="/pdf/frontend.pdf"   target="_blank"
+                                        role="button"><button class="custom-button-4">View Certificate</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -656,7 +675,10 @@
                                 <div class="p-4">
                                     <h5 class="mb-0">C++ <br> Tutorials</h5>
 
-                                    <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                    {{-- <a class="btn btn-primary mt-3" target="_blank" role="button">View
+                                        Certificate</a> --}}
+                                        <a class="  mt-3" href="/img/c.jpg"   target="_blank"
+                                        role="button"><button class="custom-button-4">View Certificate</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -669,7 +691,10 @@
                                 <div class="p-4">
                                     <h5 class="mb-0">Tutorials AWS Fundamentals: Going Cloud-Native</h5>
 
-                                    <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                    {{-- <a class="btn btn-primary mt-3" href="/pdf/aws.pdf" role="button">View
+                                        Certificate</a> --}}
+                                        <a class="  mt-3"href="/pdf/aws.pdf"   target="_blank"
+                                        role="button"><button class="custom-button-4">View Certificate</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -685,7 +710,10 @@
                                 <div class="p-4">
                                     <h5 class="mb-0">Career Edge - Knockdown the Lockdown</h5>
 
-                                    <a class="btn btn-primary mt-3" href="#" role="button">View Certificate</a>
+                                    {{-- <a class="btn btn-primary mt-3"  target="_blank"
+                                        role="button">View Certificate</a> --}}
+                                        <a class="  mt-3"href="/pdf/tcs.pdf" target="_blank"
+                                        role="button"><button class="custom-button-4">View Certificate</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -698,7 +726,11 @@
                                 <div class="p-4">
                                     <h5 class="mb-0">Version Control <br> with Git</h5>
 
-                                    <a class="btn btn-primary mt-3" href="#" role="button">View Course</a>
+                                    {{-- <a class="btn btn-primary mt-3"
+                                        href="https://www.udacity.com/course/version-control-with-git--ud123"
+                                        role="button">View Course</a> --}}
+                                        <a class="  mt-3"  href="https://www.udacity.com/course/version-control-with-git--ud123" target="_blank"
+                                        role="button"><button class="custom-button-4">View Course</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -721,7 +753,7 @@
 
 
     </section>
-{{-- CONTACT ME --}}
+    {{-- CONTACT ME --}}
     <section data-section="7" id="contact" style="background: black;">
 
 
@@ -848,7 +880,7 @@
         AOS.init();
 
     </script>
-    <script>
+    {{-- <script>
         var navActive = function(section) {
 
             var $el = $('#navbar > ul');
@@ -884,7 +916,7 @@
 
         };
 
-    </script>
+    </script> --}}
     {{-- <script>
         const section = document.querySelectorAll('section');
         const bubble = document.querySelector('.bubble');
@@ -937,10 +969,10 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        $(document).on('click', ' ul li ', function() {
-            console.log('hi');
-            $(this).addClass('active').siblings().removeClass('active');
-        })
+        // $(document).on('click', ' ul li ', function() {
+        //     console.log('hi');
+        //     $(this).addClass('active').siblings().removeClass('active');
+        // })
 
 
         function myFunction() {
@@ -985,6 +1017,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script src="/js/app.js"></script>
+
 </body>
 
 </html>
